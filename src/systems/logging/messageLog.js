@@ -1,0 +1,1 @@
+// Message logging scaffold

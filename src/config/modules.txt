@@ -1,0 +1,8 @@
+Suggested installs:
+discord.js
+mongoose
+ms
+dotenv
+chalk
+winston
+discord-html-transcripts (optional)

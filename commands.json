@@ -1,0 +1,622 @@
+[
+  {
+    "options": [
+      {
+        "name": "user",
+        "description": "Target user",
+        "required": true,
+        "type": 6
+      },
+      {
+        "type": 4,
+        "name": "amount",
+        "description": "Jumlah XP",
+        "required": true
+      }
+    ],
+    "name": "addxp",
+    "description": "Tambah XP member",
+    "default_member_permissions": "8",
+    "type": 1
+  },
+  {
+    "options": [],
+    "name": "removeautorole",
+    "description": "Matikan auto role",
+    "default_member_permissions": "8",
+    "type": 1
+  },
+  {
+    "options": [
+      {
+        "type": 4,
+        "name": "level",
+        "description": "Level title",
+        "required": true
+      }
+    ],
+    "name": "removetitle",
+    "description": "Hapus title reward",
+    "default_member_permissions": "8",
+    "type": 1
+  },
+  {
+    "options": [
+      {
+        "name": "user",
+        "description": "Target user",
+        "required": true,
+        "type": 6
+      }
+    ],
+    "name": "resetxp",
+    "description": "Reset data XP member",
+    "default_member_permissions": "8",
+    "type": 1
+  },
+  {
+    "options": [],
+    "name": "rewards",
+    "description": "Lihat semua role rewards",
+    "type": 1
+  },
+  {
+    "options": [
+      {
+        "name": "role",
+        "description": "Role yang diberikan",
+        "required": true,
+        "type": 8
+      }
+    ],
+    "name": "setautorole",
+    "description": "Set role otomatis saat member join",
+    "default_member_permissions": "8",
+    "type": 1
+  },
+  {
+    "options": [
+      {
+        "type": 3,
+        "name": "message",
+        "description": "Pesan level up",
+        "required": true
+      }
+    ],
+    "name": "setlevelup",
+    "description": "Atur pesan level up",
+    "default_member_permissions": "8",
+    "type": 1
+  },
+  {
+    "options": [
+      {
+        "type": 4,
+        "name": "level",
+        "description": "Level yang dibutuhkan",
+        "required": true
+      },
+      {
+        "name": "role",
+        "description": "Role reward",
+        "required": true,
+        "type": 8
+      }
+    ],
+    "name": "setreward",
+    "description": "Set role reward untuk level tertentu",
+    "default_member_permissions": "8",
+    "type": 1
+  },
+  {
+    "options": [
+      {
+        "type": 4,
+        "name": "level",
+        "description": "Level yang dibutuhkan",
+        "required": true
+      },
+      {
+        "type": 3,
+        "name": "title",
+        "description": "Title yang didapat",
+        "required": true
+      }
+    ],
+    "name": "settitle",
+    "description": "Set title reward untuk level tertentu",
+    "default_member_permissions": "8",
+    "type": 1
+  },
+  {
+    "options": [
+      {
+        "name": "channel",
+        "description": "Welcome channel",
+        "required": true,
+        "type": 7
+      }
+    ],
+    "name": "setwelcome",
+    "description": "Set welcome channel",
+    "default_member_permissions": "8",
+    "type": 1
+  },
+  {
+    "options": [
+      {
+        "name": "user",
+        "description": "Target user",
+        "required": true,
+        "type": 6
+      },
+      {
+        "type": 4,
+        "name": "amount",
+        "description": "Jumlah XP baru",
+        "required": true
+      }
+    ],
+    "name": "setxp",
+    "description": "Set XP member",
+    "default_member_permissions": "8",
+    "type": 1
+  },
+  {
+    "options": [],
+    "name": "testleave",
+    "description": "Test leave message",
+    "default_member_permissions": "8",
+    "type": 1
+  },
+  {
+    "options": [],
+    "name": "testlevelup",
+    "description": "Tes pesan level up",
+    "default_member_permissions": "8",
+    "type": 1
+  },
+  {
+    "options": [],
+    "name": "testwelcome",
+    "description": "Test welcome message",
+    "default_member_permissions": "8",
+    "type": 1
+  },
+  {
+    "options": [],
+    "name": "titles",
+    "description": "Lihat semua title reward",
+    "type": 1
+  },
+  {
+    "options": [
+      {
+        "name": "enabled",
+        "description": "Status",
+        "required": true,
+        "type": 5
+      }
+    ],
+    "name": "togglewelcome",
+    "description": "Enable / Disable welcome",
+    "default_member_permissions": "8",
+    "type": 1
+  },
+  {
+    "options": [
+      {
+        "type": 3,
+        "choices": [
+          {
+            "name": "Enable",
+            "value": "enabled"
+          },
+          {
+            "name": "Min XP",
+            "value": "min_xp"
+          },
+          {
+            "name": "Max XP",
+            "value": "max_xp"
+          },
+          {
+            "name": "Cooldown",
+            "value": "cooldown"
+          },
+          {
+            "name": "Multiplier",
+            "value": "multiplier"
+          },
+          {
+            "name": "Max Level",
+            "value": "max_level"
+          }
+        ],
+        "name": "setting",
+        "description": "Setting yang ingin diubah",
+        "required": true
+      },
+      {
+        "type": 3,
+        "name": "value",
+        "description": "Nilai baru",
+        "required": true
+      }
+    ],
+    "name": "xpconfig",
+    "description": "Konfigurasi sistem XP",
+    "default_member_permissions": "8",
+    "type": 1
+  },
+  {
+    "options": [],
+    "name": "xpsettings",
+    "description": "Lihat konfigurasi XP",
+    "type": 1
+  },
+  {
+    "options": [],
+    "name": "voicelb",
+    "description": "Lihat leaderboard voice activity",
+    "type": 1
+  },
+  {
+    "options": [
+      {
+        "type": 3,
+        "name": "word",
+        "description": "Kata",
+        "required": true
+      }
+    ],
+    "name": "addbadword",
+    "description": "Tambah kata terlarang",
+    "default_member_permissions": "8",
+    "type": 1
+  },
+  {
+    "options": [
+      {
+        "type": 1,
+        "name": "links",
+        "description": "Toggle anti links",
+        "options": [
+          {
+            "name": "enabled",
+            "description": "On or Off",
+            "required": true,
+            "type": 5
+          }
+        ]
+      },
+      {
+        "type": 1,
+        "name": "mentions",
+        "description": "Configure mention spam",
+        "options": [
+          {
+            "type": 4,
+            "name": "limit",
+            "description": "Max mentions",
+            "required": true
+          }
+        ]
+      },
+      {
+        "type": 1,
+        "name": "spam",
+        "description": "Configure spam protection",
+        "options": [
+          {
+            "type": 4,
+            "name": "limit",
+            "description": "Messages before trigger",
+            "required": true
+          }
+        ]
+      },
+      {
+        "type": 1,
+        "name": "caps",
+        "description": "Configure anti caps",
+        "options": [
+          {
+            "type": 4,
+            "name": "percent",
+            "description": "Percentage",
+            "required": true
+          }
+        ]
+      }
+    ],
+    "name": "automod",
+    "description": "Configure AutoMod",
+    "default_member_permissions": "8",
+    "type": 1
+  },
+  {
+    "options": [
+      {
+        "name": "user",
+        "description": "Target user",
+        "required": true,
+        "type": 6
+      },
+      {
+        "type": 3,
+        "name": "reason",
+        "description": "Alasan ban",
+        "required": false
+      }
+    ],
+    "name": "ban",
+    "description": "Ban member dari server",
+    "default_member_permissions": "4",
+    "type": 1
+  },
+  {
+    "options": [
+      {
+        "name": "user",
+        "description": "Target user",
+        "required": true,
+        "type": 6
+      }
+    ],
+    "name": "clearwarnings",
+    "description": "Hapus semua warning user",
+    "default_member_permissions": "1099511627776",
+    "type": 1
+  },
+  {
+    "options": [
+      {
+        "name": "user",
+        "description": "Target user",
+        "required": true,
+        "type": 6
+      },
+      {
+        "type": 3,
+        "name": "reason",
+        "description": "Alasan kick",
+        "required": false
+      }
+    ],
+    "name": "kick",
+    "description": "Kick member",
+    "default_member_permissions": "2",
+    "type": 1
+  },
+  {
+    "options": [],
+    "name": "listbadwords",
+    "description": "Lihat daftar badword",
+    "default_member_permissions": "8",
+    "type": 1
+  },
+  {
+    "options": [],
+    "name": "lock",
+    "description": "Lock channel",
+    "default_member_permissions": "16",
+    "type": 1
+  },
+  {
+    "options": [
+      {
+        "type": 4,
+        "name": "amount",
+        "description": "Jumlah pesan",
+        "required": true
+      }
+    ],
+    "name": "purge",
+    "description": "Hapus pesan",
+    "default_member_permissions": "8192",
+    "type": 1
+  },
+  {
+    "options": [
+      {
+        "type": 3,
+        "name": "word",
+        "description": "Kata",
+        "required": true
+      }
+    ],
+    "name": "removebadword",
+    "description": "Hapus kata terlarang",
+    "default_member_permissions": "8",
+    "type": 1
+  },
+  {
+    "options": [
+      {
+        "channel_types": [
+          0
+        ],
+        "name": "channel",
+        "description": "Channel log moderation",
+        "required": true,
+        "type": 7
+      }
+    ],
+    "name": "setmodlog",
+    "description": "Set channel mod logs",
+    "default_member_permissions": "8",
+    "type": 1
+  },
+  {
+    "options": [
+      {
+        "name": "user",
+        "description": "Target user",
+        "required": true,
+        "type": 6
+      },
+      {
+        "type": 3,
+        "name": "duration",
+        "description": "10m, 1h, 1d",
+        "required": true
+      },
+      {
+        "type": 3,
+        "name": "reason",
+        "description": "Alasan timeout",
+        "required": false
+      }
+    ],
+    "name": "timeout",
+    "description": "Timeout member",
+    "default_member_permissions": "1099511627776",
+    "type": 1
+  },
+  {
+    "options": [
+      {
+        "type": 3,
+        "name": "userid",
+        "description": "ID user",
+        "required": true
+      }
+    ],
+    "name": "unban",
+    "description": "Unban user",
+    "default_member_permissions": "4",
+    "type": 1
+  },
+  {
+    "options": [],
+    "name": "unlock",
+    "description": "Unlock channel",
+    "default_member_permissions": "16",
+    "type": 1
+  },
+  {
+    "options": [
+      {
+        "name": "user",
+        "description": "Target user",
+        "required": true,
+        "type": 6
+      }
+    ],
+    "name": "untimeout",
+    "description": "Hapus timeout",
+    "default_member_permissions": "1099511627776",
+    "type": 1
+  },
+  {
+    "options": [
+      {
+        "type": 4,
+        "name": "id",
+        "description": "ID warning",
+        "required": true
+      }
+    ],
+    "name": "unwarn",
+    "description": "Hapus 1 warning berdasarkan ID",
+    "default_member_permissions": "1099511627776",
+    "type": 1
+  },
+  {
+    "options": [
+      {
+        "name": "user",
+        "description": "User yang akan diwarn",
+        "required": true,
+        "type": 6
+      },
+      {
+        "type": 3,
+        "name": "reason",
+        "description": "Alasan warning",
+        "required": true
+      }
+    ],
+    "name": "warn",
+    "description": "Warn a member",
+    "default_member_permissions": "1099511627776",
+    "type": 1
+  },
+  {
+    "options": [
+      {
+        "name": "user",
+        "description": "Target user",
+        "required": true,
+        "type": 6
+      }
+    ],
+    "name": "warnings",
+    "description": "Lihat warning user",
+    "default_member_permissions": "1099511627776",
+    "type": 1
+  },
+  {
+    "options": [
+      {
+        "name": "user",
+        "description": "Target user",
+        "required": false,
+        "type": 6
+      }
+    ],
+    "name": "avatar",
+    "description": "Lihat avatar user",
+    "type": 1
+  },
+  {
+    "options": [],
+    "name": "botinfo",
+    "description": "Informasi bot",
+    "type": 1
+  },
+  {
+    "options": [],
+    "name": "help",
+    "description": "Lihat daftar command",
+    "type": 1
+  },
+  {
+    "options": [],
+    "name": "lb",
+    "description": "Lihat leaderboard server",
+    "type": 1
+  },
+  {
+    "options": [],
+    "name": "ping",
+    "description": "Check bot latency",
+    "type": 1
+  },
+  {
+    "options": [],
+    "name": "rank",
+    "description": "Lihat rank dan XP kamu",
+    "type": 1
+  },
+  {
+    "options": [],
+    "name": "serverinfo",
+    "description": "Lihat info server",
+    "type": 1
+  },
+  {
+    "options": [
+      {
+        "name": "user",
+        "description": "Target user",
+        "required": false,
+        "type": 6
+      }
+    ],
+    "name": "userinfo",
+    "description": "Lihat info user",
+    "type": 1
+  }
+]
