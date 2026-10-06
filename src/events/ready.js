@@ -14,7 +14,7 @@ module.exports = {
       `.help ${client.guilds.cache.size} servers rn!`,
       "⚡ Utility & Moderation",
       "https://discord.gg/KsbuavfTwf",
-      "Saint Hostel Official Bot",
+      "Clockwyrd Official Bot",
     ];
 
     let index = 0;
