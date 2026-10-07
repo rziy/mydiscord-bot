@@ -19,6 +19,14 @@ app.get("/", (req, res) => {
   res.send("SaintHost Online");
 });
 
+app.get("/api/ping", (req, res) => {
+  res.json({
+    status: "ok",
+    service: "saint-host",
+    timestamp: new Date().toISOString(),
+  });
+});
+
 app.listen(process.env.PORT || 3000, () => {
   console.log("Web server ready.");
 });
